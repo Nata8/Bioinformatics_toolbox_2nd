@@ -1,0 +1,36 @@
+CLUSTAL V multiple sequence alignment
+
+                                    DNA binding domain
+                                   --------------------
+DICA_ECOLI      METKNLTIGERIRYRRKNLKHTQRSLAKALKISHVSVSQWERGDSEPTGK
+IMMF_BPPH1      LDGK--LLGALIKDKRKEKHLKQTEMAKALGMSRTYLSDIENGRYLPSTK
+RPC_BPPH1       MT-----VGQRIKAIRKERKLTQVQLAEKANLSRSYLADIERDRYNPSLS
+RPC_BPP2        MS-N--TISEKIVLMRKSEYLSRQQLADLTGVPYGTLSYYESGRSTPPTD
+RPC2_BPP22      MNTQLM--GERIRARRKKLKIRQAALGKMVGVSNVAISQWERSETEPNGE
+                .       .  *   **     .  ..    ..   ..      *
+
+DICA_ECOLI      NLFALSKVLQCSPTWILFGD--------------EDKQPTP---------
+IMMF_BPPH1      TLSRIAILINLDLNVLKMTEIQVVEE-GGYD-------------------
+RPC_BPPH1       TLEAVAGALGIQVSAIVGEETLIKEEQAEYNSKEEKD----------IAK
+RPC_BPP2        VM----------MNILQTPQF------TKYT-------------------
+RPC2_BPP22      NLLALSKALQCSPDYLLKGD--LSQTNVAYHSRHEPRGSYPLISWVSAGQ
+                 .             .   .
+DICA_ECOLI      -----------------------------------PVEKPVALS-PKELE
+IMMF_BPPH1      --------------------------------------RAAGTCRRQAL-
+RPC_BPPH1       RMEEI----RKDLEK---------SDGLSFS--GEPMSQEAVESLMEAME
+RPC_BPP2        ---------------------------LWFM--TNQIAPE--------FG
+RPC2_BPP22      WMEAVEPYHKRAIENWHDTTVDCSEDSFWLDVQGDSMTAPAGLSIPEGMI
+
+
+DICA_ECOLI      LL----------ELFNALPESEQDTQLAEM-----RARVKNFNKLFE---
+IMMF_BPPH1      --------------------------------------------------
+RPC_BPPH1       HIVRQ---------------------------------TQRINKKYTPKK
+RPC_BPP2        QIAPA---------------------------------LAHFGQNETTSP
+RPC2_BPP22      ILVDPEVEPRNGKLVVAKLEGENEATFKKLVMDAGRKFLKPLNPQYPMIE
+
+
+DICA_ECOLI      --------ELLKARQRTNKR
+IMMF_BPPH1      --------------------
+RPC_BPPH1       YRND-------------DQE
+RPC_BPP2        HSGQ-------------KTG
+RPC2_BPP22      INGNCKIIGVVVDAKLANLP
