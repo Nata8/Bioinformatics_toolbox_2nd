@@ -53,48 +53,10 @@ Hovewer, this can be changed inside class ConservationScoreRun -- msaPArser.
 The numeric index of column is necessary for this task. Result is a conservative
 score for given column using minimum entropy (see third source).
  
-
-
-Next two tasks have been programmed in Python (repository Bioinformatics_toolbox). Output displays at the terminal.
-Pdbparser.py is the basic parser used in both tasks. Data are downloaded from PDB database, stored at pdb_files folder.
-
-REQUIREMENTS:
-	- Python version 3.7.9
-	- Biopython (pip install biopython)
-	- Freesasa (pip install freesasa)
-
-6. Processing PDB files (proccespbd.py)
-
-First, the user have to enter four-digit PDB identifier. If the file is not already downloaded,
-the PDB file will be downloaded and stored. The implementation provides following functions as an output:
-	- proteine structure width (maximum of distance of any two atoms)
-	- number of models, chains, residues and atoms in the structure
-
-Subsequently, the user should enter the serial number of a ligand and radius (distance from given ligand).
-Ligands can be found in PDB file - lines starting with HETATM. The output is a list of atoms and residues
-being in given distance from given ligand and coordinates of ligand.
-
-7. Computing structure-related properties (structpropts.py)
-
-With help of the previous PDB parser, the implementation provides following functions as an output:
-
-		- the diameter of the protein and the ratio of surface and buried amino acids
-		- a histogram of amino acids composition of buried and exposed amino acids
-		- a portion of polar amino acids in the core and on the surface of the protein
-
-Ratio of the surface and buried amino acids is computed using FreeSaSa Pythom module. 
-Freesasa values are calculated and residues are divided into two groups based on these values.
-Buried group = freesasa value must be lower than 0.2 (threshold is set according to first source written by Chen). 
-
-
-Some of the assumptions made in these tasks are not entirely realistic.
-
-SOURCES:
+# Sources
 1. Chen, H. (2005). Prediction of solvent accessibility and sites of deleterious mutations from protein sequence. Nucleic Acids Research, 33(10), 3193–3199.
 
 Internet sources:
 
 	2. http://siret.ms.mff.cuni.cz/hoksza/courses/bioinformatics
 	3. http://www.cse.chalmers.se/~kemp/teaching/UMF018/2010-2011/sequence2.pdf
-	4. https://freesasa.github.io/python/
-	5. https://biopython.org/wiki/The_Biopython_Structural_Bioinformatics_FAQ
