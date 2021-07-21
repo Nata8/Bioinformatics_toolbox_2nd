@@ -6,7 +6,7 @@ bioinformatics for mff course with id NDBI044
 # Getting Started
 
 ## Requirements
-`
+- [Java 8 or newer](https://www.java.com/en/),
 
 ## Run this repository (copy and paste)
 
