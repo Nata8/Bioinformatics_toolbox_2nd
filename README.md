@@ -8,7 +8,7 @@ bioinformatics for mff course with id NDBI044
 ## Requirements
 - [Java 8 or newer](https://www.java.com/en/),
 
-## Run this repository (copy and paste)
+## Clone this repository
 `git clone https://github.com/Nata8/Bioinformatics_toolbox_2nd.git`
 
 
