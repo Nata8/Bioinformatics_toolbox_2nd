@@ -1,7 +1,7 @@
 # Bioformatics-toolbox
 
 Implementations of basic methods from the field of sequence and structural
-bioinformatics for mff course with id NDBI044
+bioinformatics for mff course with id **NDBI044**.
 
 # Getting Started
 
@@ -18,7 +18,7 @@ ________________________________________________________________________________
 
 ## First Java Part
 
-First five assignments have been written in Java (repository `Bioinformatics_toolbox_2nd`). 
+First five assignments have been written in Java (repository [Bioinformatics_toolbox_2nd](https://github.com/Nata8/Bioinformatics_toolbox_2nd)). 
 Therefore, Java 8 or later is necessary for compilation.
 
 The user selects from the menu using numbers in terminal.
@@ -70,32 +70,7 @@ score for given column using minimum entropy (see third source).
  
 ## Second Python Part
 
-Next two tasks have been written in Python (repository `Bioinformatics_toolbox`). Output displays at the terminal.
-`pdbparser.py` is the basic parser used in both tasks. Data are downloaded from PDB database, stored in `pdb_files` directory.
-
-**6. Processing PDB files (`processpbd.py`)**
-
-First, the user have to enter four-digit PDB identifier. If the file is not already downloaded,
-the PDB file will be downloaded and stored. The implementation provides following functions as an output:
-	- proteine structure width (maximum of distance of any two atoms)
-	- number of models, chains, residues and atoms in the structure
-
-Subsequently, the user should enter the serial number of a ligand and radius (distance from given ligand).
-Ligands can be found in PDB file - lines starting with HETATM. The output is a list of atoms and residues
-being in given distance from given ligand and coordinates of ligand.
-
-**7. Computing structure-related properties (`structpropts.py`)**
-
-With help of the previous PDB parser, the implementation provides following functions as an output:
-
-- the diameter of the protein and the ratio of surface and buried amino acids
-- a histogram of amino acids composition of buried and exposed amino acids
-- a portion of polar amino acids in the core and on the surface of the protein
-
-Ratio of the surface and buried amino acids is computed using *FreeSASA* Pythom module.
-*FreeSASA* values are calculated and residues are divided into two groups based on these values.
-Buried group = *FreeSASA* value must be lower than `0.2` (threshold is set according to first source written by Chen). 
-
+Next two tasks have been written in Python (repository [Bioinformatics_toolbox](https://github.com/Nata8/Bioformatics-toolbox)).  
 
 Some of the assumptions made in these tasks are not entirely realistic.
 
